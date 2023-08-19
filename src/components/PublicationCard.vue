@@ -3,12 +3,8 @@
     <a :href="link">
         <div class="card mb-3">
             <div class="row g-0">
-                <!-- <div class="col-md-4" v-if="source_image">
-                    <img :src="require(`@/assets/images/photos/${source_image}`)" class="img-fluid rounded p-1" :alt="name">
-                </div> -->
-                <!-- <div class="col-md-8"> -->
                     <div class="card-body">
-                            <h5 class="card-title mb-2">{{ name }}</h5>
+                        <h5 class="card-title mb-2">{{ name }}</h5>
                         <p class="card-subtitle mb-2 text-muted">{{ authors }}</p>
                         <p class="card-text">{{ abstract }}</p>
                         <p>

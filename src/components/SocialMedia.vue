@@ -1,12 +1,9 @@
 <template>
   <div class="social-media">
-    <a class="social-media" href="https://www.linkedin.com/in/alexander-berndt/">
-      <fa :icon="['fab', 'linkedin']" class="fa-lg"/>
-    </a>
-    <a class="social-media" href="https://github.com/alexberndt">
+    <a class="social-media" href="https://github.com/jakob-schloer">
       <fa :icon="['fab', 'github']" class="fa-lg"/>
     </a>
-    <a class="social-media" href="https://www.instagram.com/berndtalexander/">
+    <a class="social-media" href="https://twitter.com/schloer_jakob">
       <fa :icon="['fab', 'instagram']" class="fa-lg"/>
     </a>
   </div>
