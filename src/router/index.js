@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Hobbies from '../views/Hobbies.vue'
 import Experience from '../views/Experience.vue'
+import Talks from '../views/Talks.vue'
 
 const routes = [
   {
