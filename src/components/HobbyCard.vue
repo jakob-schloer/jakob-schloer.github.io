@@ -2,8 +2,7 @@
 <div class="hobby container">
     <div class="card mb-3">
         <div class="row g-0">
-
-            <div class="col-md-4" v-if="srcimg1"></div>
+            <div class="col-md-4" v-if="srcimg1">
                 <img src="@/assets/images/photos/IMG_3878.jpg" class="img-fluid rounded p-1" alt="name">
             </div>
             <div class="col-md-4" v-if="srcimg1">
@@ -63,6 +62,7 @@
                 <img src="@/assets/images/photos/IMG_3549.jpg" class="img-fluid rounded p-1" alt="name">
             </div>
 
+            
         </div>
     </div> 
 </div>
