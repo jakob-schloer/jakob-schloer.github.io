@@ -1,29 +1,6 @@
 <template>
-  <div class="projects">
+  <div class="publications">
 
-
-    <h2>Personal</h2>
-    <!-- <p class="m-4">A list of projects which I have worked on.</p>  -->
-
-    <project-card
-      name="ISS Tracker"
-      link="https://iss-tracker.live"
-      content="Webapp which shows the current location of the International Space Station
-      and some other statistics."
-      source_image_1="iss_space.jpg"
-      source_image_2="iss_world.jpg"
-    />
-
-    <project-card
-      name="Data-Driven Diary"
-      link="https://blog.alexberndt.com"
-      content="Blog about topics related, but not limited to,
-      machine learning, AI and algorithms in general."
-      source_image_1="blog3.jpg"
-      source_image_2="blog4.jpg"
-    />
-    
-    
     <h2>Publications</h2>
     <!-- <p class="m-4">A List of publications which I have authored.</p> -->
 
@@ -70,13 +47,11 @@ velocity estimation, especially on rough terrains."
 </template>
 
 <script>
-import ProjectCard from '@/components/ProjectCard.vue'
 import PublicationCard from '@/components/PublicationCard.vue'
 
 export default {
-  name: 'Projects',
+  name: 'Publications',
   components: {
-    "project-card": ProjectCard,
     "publication-card": PublicationCard
   }
 }
@@ -88,7 +63,7 @@ h2 {
   padding: 20px;
 }
 
-.projects {
+.publications {
   text-align: left;
 }
 

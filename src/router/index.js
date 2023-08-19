@@ -1,24 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Hobbies from '../views/Hobbies.vue'
-import Experience from '../views/Experience.vue'
-import Talks from '../views/Talks.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import(/* webpackChunkName: "cv" */ '../views/Home.vue')
+  },
+  {
+    path: '/cv',
+    name: 'CV',
+    component: () => import(/* webpackChunkName: "cv" */ '../views/CV.vue')
+  },
+  {
+    path: '/publications',
+    name: 'Publications',
+    component: () => import(/* webpackChunkName: "publications" */ '../views/Publications.vue')
   },
   {
     path: '/hobbies',
     name: 'Hobbies',
-    component: Hobbies
-  },
-  {
-    path: '/experience',
-    name: 'Experience',
-    component: Experience
+    component: () => import(/* webpackChunkName: "hobbies" */ '../views/Hobbies.vue')
   },
   // {
   //   path: '/about',
@@ -28,16 +29,6 @@ const routes = [
   //   // which is lazy-loaded when the route is visited.
   //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   // },
-  {
-    path: '/projects',
-    name: 'Projects',
-    component: () => import(/* webpackChunkName: "projects" */ '../views/Projects.vue')
-  },
-  {
-    path: '/talks',
-    name: 'Talks',
-    component: Talks
-  },
 ]
 
 const router = createRouter({
