@@ -1,8 +1,8 @@
 <template>
   <div class="talks">
     <h1>Talks</h1>
+    Add talks here.
     <p>
-      Bla bla
     </p>
 
   </div>
@@ -24,12 +24,17 @@ export default {
 h1 {
   text-align: center
 }
-
 .container {
   max-width: 768px;
   margin: auto;
   overflow: auto;
   padding: 20px 10px;
 }
-
+a {
+  text-decoration: none;
+  color: var(--text-navbar);
+}
+a.hover {
+  color: var(--text-highlight);
+}
 </style>
