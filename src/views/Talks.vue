@@ -1,5 +1,6 @@
 <template>
   <div class="talks">
+    <h1>Talks</h1>
     <p>
       I am a Ph.D. student in the 
       <a href="https://machineclimate.de/">Machince Learning for Climate Science Group</a>
@@ -21,9 +22,6 @@ export default {
 <style scoped lang="scss">
 .talks {
   text-align: left;
-}
-h1 {
-  text-align: center
 }
 .container {
   max-width: 768px;
