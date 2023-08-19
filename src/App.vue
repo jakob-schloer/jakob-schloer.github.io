@@ -1,10 +1,10 @@
 <template>
-  <VideoHeader msg="Alexander Berndt" id="video-header" />
+  <VideoHeader msg="Jakob Schlör" id="video-header" />
   <ProfilePicture />
   <SocialMedia class="container social-media"/>
   <Router class="container router"/>
   <router-view class="container content" />
-  <Footer msg="© 2021 by Alex Berndt" />
+  <Footer msg="© 2023 by Jakob Schlör (Great thanks to Alex Berndt)" />
 </template>
 
 <script>
@@ -26,7 +26,7 @@ export default {
   head () {
     return {
       meta: [{
-        'og:title': 'alexberndt.com',
+        'og:title': 'jakob-schloer',
         'og:description': 'Bio, experience, projects and other information.'
       }]
     }
