@@ -1,5 +1,5 @@
 <template>
-<div class="experience container">
+<div class="talk container">
     <div class="row g-0">
 
         <div class="col-md-3">
@@ -12,9 +12,9 @@
             <div class="row g-0">
                 <!-- <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> -->
                     <div class="card-body">
-                        <h5 class="card-title mb-2">{{ role }}</h5>
+                        <h5 class="card-title mb-2">{{ title }}</h5>
                         <div class="text-muted font-italic">
-                            <small class="card-subtitle left">{{ company }}</small>
+                            <small class="card-subtitle left">{{ institute }}</small>
                             <small class="card-subtitle right">{{ location }}</small>
                         </div>
                         <div class="mt-1">
@@ -32,10 +32,10 @@
 <script>
 
 export default {
-  name: 'ExperienceCard',
+  name: 'TalkCard',
   props: {
-    role: String,
-    company: String,
+    title: String,
+    institute: String,
     date: String,
     location: String,
     content: String,

@@ -6,6 +6,9 @@
     <a class="social-media" href="https://twitter.com/schloer_jakob">
       <fa :icon="['fab', 'twitter']" class="fa-lg"/>
     </a>
+    <a class="social-media" href="https://www.linkedin.com/in/jakob-schl%C3%B6r-615ab01ba/">
+      <fa :icon="['fab', 'linkedin']" class="fa-lg"/>
+    </a>
   </div>
 </template>
 

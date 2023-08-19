@@ -4,47 +4,53 @@
     <!-- <p class="m-4">A List of publications which I have authored.</p> -->
 
     <publication-card
-      name="Data-Driven Set-Based Estimation using Matrix Zonotopes with Set Containment Guarantees"
-      link="https://arxiv.org/abs/2101.10784"
-      authors="Alexander Berndt, Amr Alanwar, Karl Henrik Johansson, Henrik Sandberg"
-      abstract="We propose a method to perform set-based state estimation 
-                of an unknown dynamical system using a data-driven set propagation function.
-                Our method has proven set-containment guarantees given bounds on the 
-                observed input signals."
-      source_image="IMG_3747.jpg"
+      title="A multi-modal representation of El Niño Southern Oscillation Diversity"
+      link="https://arxiv.org/abs/2307.11552"
+      authors="Jakob Schlör, Felix Strnad, Antonietta Capotondi, Bedartha Goswami"
+      year="2023"
+      journal="Preprint"
     />
 
-
-    <h2>Talks</h2>
-    <!-- <p class="m-4">A list of talks I have presented.</p>  -->
-
-    <project-card
-      name="ISS Tracker"
-      link="https://iss-tracker.live"
-      content="Webapp which shows the current location of the International Space Station
-      and some other statistics."
-      source_image_1="iss_space.jpg"
-      source_image_2="iss_world.jpg"
+    <publication-card
+      title="Extreme rainfall propagation within Boreal Summer Intraseasonal Oscillation modulated by Pacific sea surface temperature"
+      link="https://arxiv.org/abs/2302.00425"
+      authors="Felix M. Strnad, Jakob Schloer, Ruth Geen, Niklas Boers, Bedartha Goswami"
+      year="2023"
+      journal="Preprint"
     />
 
+    <publication-card
+      title="Teleconnection patterns of different El Nino types revealed by climate network curvature"
+      link="https://doi.org/10.1029/2022GL098571"
+      authors="Felix M. Strnad, Jakob Schlör, Christian Fröhlich, Bedartha Goswami"
+      year="2022"
+      journal="Geophys. Res. Lett."
+    />
+
+    <publication-card
+      title="Reorganization energy and polaronic effects of pentacene on NaCl films"
+      link="https://doi.org/10.1103/PhysRevB.102.115419"
+      authors="Daniel Hernangómez-Pérez, Jakob Schlör, David A. Egger, Laerte L. Patera, Jascha Repp, and Ferdinand Evers"
+      year="2020"
+      journal="Phys. Rev. B"
+    />
 
   </div>
 </template>
 
 <script>
-import ProjectCard from '@/components/ProjectCard.vue'
 import PublicationCard from '@/components/PublicationCard.vue'
 
 export default {
   name: 'Publications',
   components: {
     "publication-card": PublicationCard,
-    "project-card": ProjectCard
   }
 }
 </script>
 
 <style scoped lang="scss">
+
 h2 {
   text-align: center;
   padding: 20px;
