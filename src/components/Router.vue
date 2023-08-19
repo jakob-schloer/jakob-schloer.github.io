@@ -7,6 +7,7 @@
       <router-link to="/projects">Projects</router-link> -
       <router-link to="/talks">Talks</router-link> -
       <router-link to="/hobbies">Others</router-link>
+      <router-link to="/about">About</router-link>
     </div>
   </div>
 </template>
