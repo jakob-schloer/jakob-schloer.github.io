@@ -1,6 +1,6 @@
 <template>
   <div class="profile container">
-      <img src="@/assets/square.jpg" alt="Profile Picture" id="profilepicture">
+      <img src="@/assets/square.png" alt="Profile Picture" id="profilepicture">
   </div>
 </template>
 
