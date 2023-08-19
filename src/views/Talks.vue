@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.home {
+.talks {
   text-align: left;
 }
 h1 {
