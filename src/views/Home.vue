@@ -11,14 +11,16 @@
     <h4>Education</h4>
     <p>
       I obtained my Bachelor in Physics at the University of Konstanz which 
-      was followed by a Masters in Physics at the University of Regensburg. 
+      was followed by a Masters in Physics at the 
+      <a href="https://www.uni-regensburg.de/physik/fakultaet/startseite/index.html">University of Regensburg.</a>
       During my studies I spent five months at the 
-      Weizmann Institute of Science in Israel and half a year at 
-      Bosch Research in Renningen. Since September 2020, I’m pursuing my PhD 
+      <a hfref="https://www.weizmann.ac.il/pages/">Weizmann Institute of Science</a> 
+      in Israel and half a year at 
+      <a hfref="https://www.bosch-ai.com/">Bosch Research in Renningen.</a> 
+      Since September 2020, I’m pursuing my PhD 
       at the University of Tübingen where I’m part of the 
       International Max-Planck Research School for Intelligent Systems. 
       I obtained my Masters degree in theoretical Physics at the 
-      <a href="https://www.uni-regensburg.de/physik/fakultaet/startseite/index.html">University of Regensburg</a>
     </p>
     <p>
       Before that I obtained my Bachelor degree in Physics at the University of Konstanz.
@@ -41,7 +43,7 @@
       <li>Weather forecasts,</li>
       <li>Climate Change impacts,</li>
       <li>Outdoors and wildlife.</li>
-      <li>Sports.</li>
+      <li>Volleyball, Cycling and Climbing.</li>
     </ul>
   </div>
 </template>
