@@ -4,7 +4,7 @@
       <fa :icon="['fab', 'github']" class="fa-lg"/>
     </a>
     <a class="social-media" href="https://twitter.com/schloer_jakob">
-      <fa :icon="['fab', 'instagram']" class="fa-lg"/>
+      <fa :icon="['fab', 'twitter']" class="fa-lg"/>
     </a>
   </div>
 </template>
