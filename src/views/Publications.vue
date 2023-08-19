@@ -1,6 +1,5 @@
 <template>
   <div class="publications">
-
     <h2>Publications</h2>
     <!-- <p class="m-4">A List of publications which I have authored.</p> -->
 
@@ -15,31 +14,17 @@
       source_image="IMG_3747.jpg"
     />
 
-    <publication-card
-      name="A Feedback Scheme to Reorder a Multi-Agent Execution 
-              Schedule by Persistently Optimizing a Switchable 
-              Action Dependency Graph"
-      link="https://arxiv.org/abs/2010.05254"
-      authors="Alexander Berndt, Niels Van Duijkeren, Luigi 
-              Palmieri, Tamas Keviczky"
-      abstract="We consider multiple Automated Guided Vehicles 
-                (AGVs) navigating a common workspace to fulfill 
-                various intralogistics tasks. We propose a novel, 
-                online persistent optimization scheme to reduce route 
-                completion times when AGVs are subject to delays.
-                "
-      conference="ICAPS 2020 Nancy, France"
-      source_image="IMG_3747.jpg"
-    />
 
-    <publication-card
-      name="Investigating Different Vehicle Velocity Estimators and an Adaptive Kalman Filter for Anti-Lock Braking Systems for Off-Road Vehicles"
-      link="/publications/Berndt_Penny_Els_ISTVS2017.pdf"
-      authors="Alexander Berndt, Wietsche Penny, Pieter Els"
-      abstract="An adaptive Kalman filter is proposed to increase the accuracy of the vehicle’s
-velocity estimation, especially on rough terrains."
-      conference="ISTVS 2017 Budapest, Hungary"
-      source_image="IMG_3747.jpg"
+    <h2>Talks</h2>
+    <!-- <p class="m-4">A list of talks I have presented.</p>  -->
+
+    <project-card
+      name="ISS Tracker"
+      link="https://iss-tracker.live"
+      content="Webapp which shows the current location of the International Space Station
+      and some other statistics."
+      source_image_1="iss_space.jpg"
+      source_image_2="iss_world.jpg"
     />
 
 
@@ -47,12 +32,14 @@ velocity estimation, especially on rough terrains."
 </template>
 
 <script>
+import ProjectCard from '@/components/ProjectCard.vue'
 import PublicationCard from '@/components/PublicationCard.vue'
 
 export default {
   name: 'Publications',
   components: {
-    "publication-card": PublicationCard
+    "publication-card": PublicationCard,
+    "project-card": ProjectCard
   }
 }
 </script>
