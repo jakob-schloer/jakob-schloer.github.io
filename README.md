@@ -1,9 +1,13 @@
-# pages
+# VUE github page
 
-## Project setup
-```
-npm install
-```
+## Setup github website
+1. Fork repo into githubname.github.io and clone repo
+2. Create branch gh-pages
+3. ```npm install``` and ```npm install -g @vue/cli```
+4. Make one build as described below
+5. Setup your github repo pages that it builds from the gh-pages branch
+
+All the steps are described in [this](https://medium.com/@Roli_Dori/deploy-vue-cli-3-project-to-github-pages-ebeda0705fbd) great blogpost. 
 
 ## Build and compile
 1. Checkout to gh-pages branch and merge main
@@ -19,5 +23,8 @@ npm install
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## References
+
+https://medium.com/@Roli_Dori/deploy-vue-cli-3-project-to-github-pages-ebeda0705fbd
+
 https://learnvue.co/articles/deploy-vue-to-github-pages 
 
