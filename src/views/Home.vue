@@ -29,13 +29,12 @@
         In my PhD I am particularly interested in
     </p>
     <ul>
-      <li>Subseasonal-to-seasonal weather prediction<li>
+      <li>Subseasonal-to-seasonal weather prediction</li>
       <li>El Nino Southern Oscillation diversity</li>
       <li>Neural Networks for spatio-temporal data</li>
       <li>Stochastic methods (SDE, Hidden Markov models, Variational Autoencoders)</li>
-      <li>Bayesian inverse models and parameter inference<li>
+      <li>Bayesian inverse models and parameter inference</li>
       <li>Climate networks</li>
-
     </ul>
     <p>Other non-work related interests include</p>
     <ul>
