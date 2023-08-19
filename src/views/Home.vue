@@ -4,7 +4,7 @@
       I am a Ph.D. student in the 
       <a href="https://machineclimate.de/">Machince Learning for Climate Science Group</a>
       at the 
-      <a href="https://uni-tuebingen.de/en/research/core-research/cluster-of-excellence-machine-learning/home/"><University of Tübingen/a>
+      <a href="https://uni-tuebingen.de/en/research/core-research/cluster-of-excellence-machine-learning/home/">University of Tübingen</a>
       where I work on understanding and improving El Nino Southern Oscillations forecasts.
 
     </p>
