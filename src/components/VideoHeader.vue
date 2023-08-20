@@ -1,6 +1,6 @@
 <template>
     <video-background 
-        :src="require(`@/assets/ssta_evolution.mp4`)"
+        :src="require(`@/assets/ssta_rotation.mp4`)"
         :poster="require(`@/assets/ssta_static.png`)"
         style="max-height: 300px; height: 100vh;"
         overlay="linear-gradient(90deg,#00000050,#00000050)"
