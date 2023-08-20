@@ -1,7 +1,7 @@
 <template>
-  <div class="hibby">
+  <div class="photo">
     <h1>Photos</h1>
-    <hobby-card 
+    <photo-card 
       name="Cycling"
       content="Photos from some cycling trips."
       srcimg1="IMG_3869.jpg"
@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import HobbyCard from '@/components/HobbyCard.vue'
+import PhotoCard from '@/components/PhotoCard.vue'
 
 export default {
-  name: 'Hobbies',
+  name: 'Photos',
   components: {
-    "hobby-card": HobbyCard
+    "photo-card": PhotoCard
   }
 }
 </script>
@@ -27,7 +27,7 @@ h1 {
   padding: 20px;
 }
 
-.hobby {
+.photo {
   text-align: left;
 }
 </style>

@@ -8,7 +8,7 @@
       <div class="project-content">
         <h5>{{ project.title }}</h5>
          <h6> <a :href="project.link" target="_blank" rel="noopener noreferrer">{{project.link}}</a> </h6>
-        <p>{{ project.description }}</p>
+        <p v-html="project.description"></p>
       </div>
     </div>
   </div>
@@ -25,7 +25,12 @@ export default {
           figure2: require('@/assets/images/projects/kims_tuebingen.jpeg'),
           title: 'KI macht Schule',
           link: "https://ki-macht-schule.de/",
-          description: 'Description for Project 1.'
+          description: `
+            KI macht Schule is an organization dedicated to educating students about AI concepts, tools, and ethics.
+            I voluntarily teach classes on AI in schools around Tübingen. It's great to see students' fascination 
+            when introduced to topics like stable diffusion and their engagement in discussions about implications
+            on society and intellectual property.
+          `
         },
         // ... add more projects as needed
       ]

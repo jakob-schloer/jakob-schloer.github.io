@@ -1,5 +1,5 @@
 <template>
-<div class="hobby container">
+<div class="photo container">
     <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-4" v-if="srcimg1">
@@ -14,7 +14,7 @@
 <script>
 
 export default {
-  name: 'HobbyCard',
+  name: 'PhotoCard',
   props: {
     name: String,
     content: String,
