@@ -1,18 +1,18 @@
 <template>
 <div class="talk container">
     <div class="row g-0">
-
         <div class="col-md-3">
              <div id="verticle-line" class="d-flex flex-column justify-content-center align-items-center">
                  <span class="badge bg-secondary">{{ date }}</span>   
              </div>
         </div>
-
         <div class="col-md card mb-3">
             <div class="row g-0">
                 <!-- <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> -->
                     <div class="card-body">
-                        <h5 class="card-title mb-2">{{ title }}</h5>
+                        <a :href="link">
+                            <h5 class="card-title mb-2">{{ title }}</h5>
+                        </a>
                         <div class="text-muted font-italic">
                             <small class="card-subtitle left">{{ institute }}</small>
                             <small class="card-subtitle right">{{ location }}</small>
@@ -39,6 +39,7 @@ export default {
     date: String,
     location: String,
     content: String,
+    link: String,
     id: String,
   },
 }
@@ -50,6 +51,15 @@ img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-regular);
+}
+
+a:hover {
+    color: var(--text-highlight);
 }
 
 .flex-column {
