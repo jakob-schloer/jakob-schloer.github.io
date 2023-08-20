@@ -18,7 +18,7 @@
                             <small class="card-subtitle right">{{ location }}</small>
                         </div>
                         <div class="mt-1">
-                            <small class="card-text">{{ content }}</small>
+                            <small v-html="content"></small>
                         </div>
                     </div> 
                 <!-- </a> -->

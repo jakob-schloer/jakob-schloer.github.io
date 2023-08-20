@@ -17,7 +17,8 @@
           location="NCAR, Boulder, USA"
           date="Feb. 2023"
           link="https://www.cesm.ucar.edu/events/working-groups/2023/climate"
-          content="A recording of the talk is available here (https://www.youtube.com/live/6swOAzV4W18?feature=share&t=2687)."
+          content='A recording of the talk is available 
+            <a href="https://www.youtube.com/live/6swOAzV4W18?feature=share&t=2687">here</a>.'
           id="6"
         />
         <talk-card 
