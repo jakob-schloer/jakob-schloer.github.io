@@ -2,7 +2,7 @@
   <div class="router">
     <div id="nav">
       <router-link to="/">Home</router-link> -
-      <!-- <router-link to="/cv">CV</router-link> - -->
+      <router-link to="/cv">CV</router-link> - 
       <!-- <router-link to="/about">About</router-link> - -->
       <router-link to="/publications">Publications</router-link> - 
       <!-- <router-link to="/projects">Projects</router-link> -  -->
