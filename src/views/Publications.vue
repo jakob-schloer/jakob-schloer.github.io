@@ -12,11 +12,11 @@
     />
 
     <publication-card
-      title="Extreme rainfall propagation within Boreal Summer Intraseasonal Oscillation modulated by Pacific sea surface temperature"
-      link="https://arxiv.org/abs/2302.00425"
+      title="Propagation pathways of Indo-Pacific rainfall extremes are modulated by Pacific sea surface temperatures"
+      link="https://doi.org/10.1038/s41467-023-41400-9"
       authors="Felix M. Strnad, Jakob Schloer, Ruth Geen, Niklas Boers, Bedartha Goswami"
       year="2023"
-      journal="Preprint"
+      journal="Nature Communication"
     />
 
     <publication-card

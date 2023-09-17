@@ -1,5 +1,8 @@
 <template>
   <div class="social-media">
+    <a class="social-media" href="mailto:jakob.schloer@uni-tuebingen.de">
+      <fa :icon="['fas', 'envelope']" class="fa-lg"/>
+    </a>
     <a class="social-media" href="https://github.com/jakob-schloer">
       <fa :icon="['fab', 'github']" class="fa-lg"/>
     </a>
