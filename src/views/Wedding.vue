@@ -28,7 +28,7 @@
     <div class="map-container">
       <iframe  
         :src="mapUrl"
-        width="600" 
+        width=100% 
         height="450"
         frameborder="0"
         style="border:0"
@@ -71,6 +71,7 @@ export default {
 }
 .equal-size-image {
   max-width: 768px;
+  width: 100%;
   margin: auto;
   overflow: auto;
   padding: 20px 10px;
@@ -99,6 +100,8 @@ table th:first-child, table td:first-child {
 }
 
 .map-container {
+  width: 100%;
+  height: auto;
   margin-top: 20px;  /* Add space above the map */
 }
 
