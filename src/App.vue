@@ -1,7 +1,7 @@
 <template>
-  <VideoHeader msg="Jakob Schlör" id="video-header" />
-  <ProfilePicture />
-  <SocialMedia class="container social-media"/>
+  <VideoHeader v-if="showComponents" msg="Jakob Schlör" id="video-header" />
+  <ProfilePicture v-if="showComponents" />
+  <SocialMedia v-if="showComponents" class="container social-media"/>
   <Router class="container router"/>
   <router-view class="container content" />
   <Footer msg="© 2023 by Jakob Schlör (Great thanks to Alex Berndt)" />
@@ -22,6 +22,12 @@ export default {
     SocialMedia,
     Router,
     Footer,
+  },
+  /* Defines exceptions for the header.*/
+  computed: {
+    showComponents() {
+      return this.$route.name !== 'Wedding';
+    }
   },
   head () {
     return {

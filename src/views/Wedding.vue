@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <router-link class="back-home" to="/">Home</router-link>
     <h1 class="title-class"> {{ title }}</h1>
     <p class="date-class">{{ date }}</p>
     <img :src="image1" alt="Wedding Image 1" class="equal-size-image" />
@@ -65,6 +66,7 @@ export default {
   text-align: left;
 }
 .title-class {
+  margin-top: 50px;
   margin-bottom: 50px
 }
 .equal-size-image {
