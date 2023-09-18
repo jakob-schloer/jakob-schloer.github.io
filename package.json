@@ -5,7 +5,7 @@
   "description": "Web app for personal website.",
   "scripts": {
     "serve": "NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build  && cp dist/index.html dist/404.html",
     "lint": "NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint",
     "deploy": "cd dist && cp index.html 404.html"
   },
