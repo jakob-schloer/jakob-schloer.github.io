@@ -1,6 +1,8 @@
 <template>
   <div class="hobbies">
 
+    <h2> Science communication</h2>
+
     <hobby-card
       title="KI macht Schule"
       link="https://ki-macht-schule.de/"
@@ -14,8 +16,17 @@
         '
       figure1="hobby/kims_tuebingen.jpeg"
     />
+
+    <hobby-card
+      title="Wie können wir mit neuronalen Netzen Klimavorhersagen verbessern?"
+      link="https://te.ma/art/ndtoia/rasp-neuronale-netze-klimavorhersagen/"
+      description='
+        In my first science-comm article, I describe how we can improve
+        the accuracy of climate projections using Neural Network parametrizations. 
+        '
+      figure1="hobby/tema.jpeg"
+    />
     
-    <p> More to coming soon ...</p>
 
     <h2>Photos</h2>
     <photo-card
