@@ -4,6 +4,14 @@
     <!-- <p class="m-4">A List of publications which I have authored.</p> -->
 
     <publication-card
+      title="A Hybrid Deep Learning Model for El Niño Southern Oscillation Dynamics "
+      link=""
+      authors="Jakob Schlör et al."
+      year="2023"
+      journal="In preparation"
+    />
+
+    <publication-card
       title="A multi-modal representation of El Niño Southern Oscillation Diversity"
       link="https://arxiv.org/abs/2307.11552"
       authors="Jakob Schlör, Felix Strnad, Antonietta Capotondi, Bedartha Goswami"

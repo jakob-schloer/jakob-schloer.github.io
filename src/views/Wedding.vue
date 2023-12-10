@@ -70,7 +70,12 @@ export default {
                 übernachten. <br> <br>
                 In unserer WG haben wir schon genug Küchengeräte, wir freuen uns daher über 
                 finanzielle Unterstützung oder Spenden an: 
-                <a href="www.givinggreen.earth">www.givinggreen.earth</a> oder <a href="www.climateemergencyfund.or">www.climateemergencyfund.or</a>`,
+                <a href="www.givinggreen.earth">www.givinggreen.earth</a> 
+                oder <a href="www.climateemergencyfund.or">www.climateemergencyfund.or</a> <br> <br>
+
+                Falls ihr mit dem Auto anreist, könnt ihr im <a href="https://www.google.com/maps?ll=48.518055,9.061029&z=18&t=m&hl=en&gl=DE&mapclient=embed&cid=4585157566754435213">Neckar-Parkhaus</a>
+                nebenan parken. 
+                `,
       mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10571.218644826758!2d9.061115!3d48.5178092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799fab9f6b6598b%3A0xf4fa6086a181b992!2sFreistil%20Taproom!5e0!3m2!1sen!2sde!4v1694983104196!5m2!1sen!2sde"
     };
   },
