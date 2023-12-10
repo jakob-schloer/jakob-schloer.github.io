@@ -3,6 +3,16 @@
       <h2>Poster and Talks</h2>
 
         <talk-card 
+          institute="Joint SPARC DynVar · SNAP Meeting" 
+          title="Poster: Characterizing Nonlinearities in ENSO Dynamics using Hybrid Machine Learning Models " 
+          location="LMU, Munich"
+          date="Oct. 2023"
+          link="https://www.sparc-climate.org/meetings/the-role-of-atmospheric-dynamics-for-climate-and-extremes/"
+          content=""
+          id="8"
+        />
+
+        <talk-card 
           institute="EGU General Assembly 2023" 
           title="Poster: A multi-modal representation of El-Niño Southern Oscillation Diversity" 
           location="Vienna, Austria"
