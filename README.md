@@ -1,9 +1,14 @@
 # VUE github page
 
+## Prerequisites
+
+1. Install npm and nodejs using snap on Ubuntu
+```sudo snap install node --classic```
+
 ## Setup github website
 1. Fork repo into githubname.github.io and clone repo
 2. Create branch gh-pages
-3. ```npm install``` and ```npm install -g @vue/cli```
+3. Use sudo rights to install packages: ```sudo npm install``` and ```sudo npm install -g @vue/cli```
 4. Make one build as described below
 5. Setup your github repo pages that it builds from the gh-pages branch
 

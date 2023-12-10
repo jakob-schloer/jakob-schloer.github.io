@@ -25,6 +25,10 @@
       </table>
     </div>
 
+    <h3>Weitere Informationen:</h3> 
+    <p class="other-container" v-html="others"></p>
+
+    <h3>Location:</h3> 
     <div class="map-container">
       <iframe  
         :src="mapUrl"
@@ -37,11 +41,13 @@
         allowfullscreen
       ></iframe>
     </div>
+
+
   </div>
 </template>
 
 <script>
-import img1 from '@/assets/images/wedding/save_date.jpg'
+import img1 from '@/assets/images/wedding/save_date.png'
 
 export default {
   data() {
@@ -50,10 +56,21 @@ export default {
       date: '',
       image1: img1,
       schedule: [
-        { time: '13:30', activity: 'Standesamtliche Trauung im Rathaus in Tübingen' },
-        { time: 'Ab 15:00', activity: 'Feier im Freistil in Tübingen' },
+        { time: '13:30', activity: 'Standesamtliche Trauung im Rathaus in Tübingen (Am Markt 1)' },
+        { time: '14:00', activity: 'Sektempfang vor dem Rathaus'},
+        { time: 'Ab 15:30', activity: 'Feier im Freistil in Tübingen' },
         // Add more events as needed
       ],
+      others: `Bezüglich des Programms und anderen Überraschungen wendet euch bitte an die Trauzeugen: <br> 
+                Moritz Frankerl <a href="mailto:moritz.frankerl@proton.me">(moritz.frankerl@proton.me) </a> <br> 
+                Hannah Weissinger <a href="mailto:hannah.weissinger@gmail.com">(hannah.weissinger@gmail.com) </a> <br> <br> 
+                Wer es nach der durchtanzten Nacht nicht weit haben möchte, 
+                kann im <a href="https://all.accor.com/hotel/9841/index.de.shtml">Ibis Hotel</a> 
+                um die Ecke oder in der <a href="https://www.jugendherberge.de/jugendherbergen/tuebingen/">JuHe</a> 
+                übernachten. <br> <br>
+                In unserer WG haben wir schon genug Küchengeräte, wir freuen uns daher über 
+                finanzielle Unterstützung oder Spenden an: 
+                <a href="www.givinggreen.earth">www.givinggreen.earth</a> oder <a href="www.climateemergencyfund.or">www.climateemergencyfund.or</a>`,
       mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10571.218644826758!2d9.061115!3d48.5178092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799fab9f6b6598b%3A0xf4fa6086a181b992!2sFreistil%20Taproom!5e0!3m2!1sen!2sde!4v1694983104196!5m2!1sen!2sde"
     };
   },
@@ -87,7 +104,7 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-top: 100px;  /* Adjust the value as needed */
-  margin-bottom: 100px;  /* Adjust the value as needed */
+  margin-bottom: 50px;  /* Adjust the value as needed */
 }
 
 table th, table td {
@@ -99,10 +116,18 @@ table th:first-child, table td:first-child {
   text-align: center;
 }
 
+.other-container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;  /* Add space above the map */
+  margin-bottom: 50px;  /* Adjust the value as needed */
+}
+
 .map-container {
   width: 100%;
   height: auto;
   margin-top: 20px;  /* Add space above the map */
+  margin-bottom: 50px;  /* Adjust the value as needed */
 }
 
 .container {
