@@ -62,13 +62,12 @@ export default {
         // Add more events as needed
       ],
       others: `<b>Trauzeugen</b> <br>
-                Bezüglich des Programms und anderen Überraschungen wendet euch bitte an die Trauzeugen: <br> 
+                Bezüglich des Programms und anderen Überraschungen wendet euch bitte an: <br> 
                 Moritz Frankerl <a href="mailto:moritz.frankerl@proton.me">(moritz.frankerl@proton.me) </a> <br> 
                 Hannah Weissinger <a href="mailto:hannah.weissinger@gmail.com">(hannah.weissinger@gmail.com) </a> <br> <br> 
                 
                 <b>Geschenke</b> <br>
-                In unserer WG haben wir schon genug Küchengeräte, wir freuen uns daher über 
-                finanzielle Unterstützung oder Spenden an: 
+                Wir freuen uns über finanzielle Unterstützung oder Spenden an: 
                 <a href="www.givinggreen.earth">www.givinggreen.earth</a> 
                 oder <a href="www.climateemergencyfund.or">www.climateemergencyfund.or</a> <br> <br>
 
