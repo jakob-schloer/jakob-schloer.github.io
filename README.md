@@ -13,10 +13,12 @@
 
 All the steps are described in [this](https://medium.com/@Roli_Dori/deploy-vue-cli-3-project-to-github-pages-ebeda0705fbd) great blogpost. 
 
-## Build and compile
+## Build and deploy 
 1. Check if the website is running ```npm run serve```
 2. Build website ```npm run build``` which creates the folder dist
 3. Deploy the ```/dist``` folder to a branch called gh-pages by running the ```deploy.sh``` script.
+
+The deployment is described [here](https://cli.vuejs.org/guide/deployment.html#github-pages).
 
 ### Lints and fixes files
 ```npm run lint```
