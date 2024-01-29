@@ -15,8 +15,11 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
+git branch gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:jakob-schloer/jakob-schloer.github.io.git gh-pages
+
+rm -rf .git/
 
 cd -
