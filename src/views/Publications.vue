@@ -5,7 +5,7 @@
 
     <publication-card
       title="A Hybrid Deep Learning Model for El Niño Southern Oscillation Dynamics "
-      link=""
+      link="/publications/24-01-25_hybrid_lim.pdf"
       authors="Jakob Schlör et al."
       year="2023"
       journal="In preparation"
