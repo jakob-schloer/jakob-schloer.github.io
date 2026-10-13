@@ -1,12 +1,16 @@
 <template>
   <div class="home">
     <p>
-      I am a Ph.D. student in the 
-      <a href="https://machineclimate.de/">Machince Learning for Climate Science Group</a>
-      at the 
-      <a href="https://uni-tuebingen.de/en/research/core-research/cluster-of-excellence-machine-learning/home/">University of Tübingen</a>
-      where I work on predicting El Nino Southern Oscillation, its diversity and remote impacts.
-
+      I am a Scientist for Data-Driven Modelling at the
+      <a href="https://www.ecmwf.int/">European Centre for Medium-Range Weather Forecasts (ECMWF)</a>
+      where I work on machine learning for weather and climate forecasting.
+      My particular interests are in longer time scales from sub-seasonal to decadal predictions of the climate system.
+    </p>
+    <p>
+      Before joining ECMWF, I was a PhD student in the
+      <a href="https://machineclimate.de/">Machine Learning for Climate Science Group</a>
+      at the University of Tübingen, where I worked on predicting the El Niño Southern Oscillation,
+      its diversity and its remote impacts.
     </p>
     <h4>Education</h4>
     <p>
@@ -24,23 +28,19 @@
     </p>
 
     <h4>Interests</h4>
-    <p> I am a generally curious person and interested in a wide variety of topics.
-        In my PhD I am particularly interested in
+    <p> I am a generally curious person and interested in a variety of topics.
+        In my work I am particularly interested in
     </p>
     <ul>
-      <li>Subseasonal-to-seasonal weather prediction,</li>
-      <li>El Nino Southern Oscillation diversity,</li>
-      <li>Neural Networks for spatio-temporal data,</li>
-      <li>Stochastic methods (SDE, Hidden Markov models, Variational Autoencoders),</li>
-      <li>Bayesian inverse models and parameter inference,</li>
-      <li>Climate networks.</li>
+      <li>Data-driven weather and climate models,</li>
+      <li>Sub-seasonal and seasonal forecasting</li>
+      <li>Probabilistic machine learning models</li>
+      <li>Predictability</li>
     </ul>
     <p>Other non-work related interests include:</p>
     <ul>
-      <li>Weather forecasts,</li>
-      <li>Climate Change impacts,</li>
       <li>Camping, outdoors and wildlife,</li>
-      <li>Volleyball, Cycling and Climbing.</li>
+      <li>Mountaineering, Climbing, Volleyball, and Cycling.</li>
     </ul>
   </div>
 </template>

@@ -2,8 +2,7 @@
 
 ## Prerequisites
 
-1. Install npm and nodejs using snap on Ubuntu
-```sudo snap install node --classic```
+1. Install npm and nodejs 
 
 ## Setup github website
 1. Fork repo into githubname.github.io and clone repo
